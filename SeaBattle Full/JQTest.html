@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            $("button").click(function () {
+                $(this).next().removeAttr("disabled")
+                        .focus()
+                        .val("editable now");
+            });
+
+        });
+    </script>
+
+</head>
+<body>
+<button>Enable</button>
+<input type="text" disabled="disabled" value="can't edit this" />
+
+</body>
+</html>

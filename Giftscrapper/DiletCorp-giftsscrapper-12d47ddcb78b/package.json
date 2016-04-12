@@ -1,0 +1,26 @@
+{
+  "name": "gifts_scrapper",
+  "version": "1.0.0",
+  "description": "data scrapper for gifts.ru",
+  "main": "app.js",
+  "dependencies": {
+    "progress": "^1.1.8",
+    "x-ray": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://xefimix@bitbucket.org/xefimix/giftsscrapper.git"
+  },
+  "keywords": [
+    "scrapper",
+    "data",
+    "gifts"
+  ],
+  "author": "Efim Parshin",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/xefimix/giftsscrapper#readme"
+}
